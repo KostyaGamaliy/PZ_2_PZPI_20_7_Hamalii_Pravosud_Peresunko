@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/calculator_test.sol": "TestCalculator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/calculator.sol": {
+			"keccak256": "0xc9abd802a68da1d35460e69c6e7e63cd32233fe1bb9df9491a34286e2c4042b9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://90b5a6f775eea58e754153f714310bcc8eb33da92c44d20178df93e70b7f8972",
+				"dweb:/ipfs/QmPFBTNZpQ5fmmLpkb8pCGuAYLD17iV5ZzWmVbo6e2N1At"
+			]
+		},
+		"tests/calculator_test.sol": {
+			"keccak256": "0xd46dce80b2f2210c1c56ddcd54136f212d737b459fa0c0708bc3ba4cc44c1899",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://86c5cb3217607ffe2b8ae911567f9f4cdeab51954b7bdc90fb33982860092120",
+				"dweb:/ipfs/QmX8KBG6Aq1QawRbevf9p73NDWoUrLcct1fthaax2aCCUz"
+			]
+		}
+	},
+	"version": 1
+}
